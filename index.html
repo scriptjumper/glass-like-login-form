@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass Like Login Form</title>
+
+    <link rel="stylesheet" href="./glass.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Login form -->
+    <div class="bg-img">
+      <div class="content">
+        <header>Welcome Kakashi Sensei</header>
+        <form action="#">
+          <div class="field">
+            <span class="fa fa-user"></span>
+            <input type="text" required placeholder="Enter Email" />
+        </div>
+
+          <div class="field space">
+            <span class="fa fa-lock"></span>
+            <input type="password" class="pass-key" required placeholder="Password" />
+            <span class="show">SHOW</span>
+        </div>
+
+          <div class="pass">
+            <a href="#">Forgot password? Get a password manager.</a>
+          </div>
+
+          <div class="field">
+            <input type="submit" value="LOGIN" />
+        </div>
+
+        </form>
+      </div>
+    </div>
+
+    <!-- Custom Listener Script -->
+    <script src="./click-listener.js"></script>
+  </body>
+</html>
